@@ -25,8 +25,8 @@ import { useState } from "react";
 // };
 
 //2nd scalable
-const VisibilityToggle = ({ children }) => {
-  const [show, setShow] = useState(true);
+const VisibilityToggle = ({ children, initialVisibility = true }) => {
+  const [show, setShow] = useState(initialVisibility);
 
   const toggleVisiblity = () => setShow(!show);
   return (
