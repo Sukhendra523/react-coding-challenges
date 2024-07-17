@@ -6,7 +6,10 @@
   - Create an input box and a paragraph tag under this input box.
   - As the user types in the input box, the paragraph tag should display the number of characters typed.
   - When the character count exceeds 10, the text color in the paragraph tag should turn red.
-- **Solution:**
+
+<details>
+  <summary> Solution: </summary>
+
   ```jsx
   import { useState } from "react";
   import "./styles.css";
@@ -36,6 +39,7 @@
     color: red;
   }
   ```
+</details>
 
 ### Problem 2: Toggle Visibility
 
@@ -44,7 +48,9 @@
   - Initially, the paragraph should be visible.
   - When the button is clicked, the paragraph should be hidden, and the button text should change to "Show".
   - When the button is clicked again, the paragraph should be shown, and the button text should change to "Hide".
-- **Solution:**
+<details>
+  <summary> Solution: </summary>
+  
   - **1st**
     ```jsx
     import { useState } from "react";
@@ -83,6 +89,7 @@
 
     export default VisibilityToggle;
     ```
+</details>
 
 ### Problem 3: Fetch and Display Data
 
@@ -90,7 +97,9 @@
   - Create a button that, when clicked, fetches data from an API and displays it in a list.
   - Use a placeholder API like [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
   - Display a loading message while fetching the data and handle any potential errors gracefully.
-- **Solution:**
+<details>
+  <summary> Solution: </summary>
+
   - 1st without custom hook
     ```jsx
     /* 
@@ -233,6 +242,7 @@
 
     export default PostContainer;
     ```
+</details>
 
 ### **Problem 4: Debounced Search**
 
@@ -240,7 +250,9 @@
   - Create a search input box.
   - As the user types in the search box, fetch suggestions from an API but only after the user stops typing for 300 milliseconds.
   - Display the fetched suggestions in a list below the search box.
-- **Solution**
+<details>
+  <summary> Solution: </summary>
+  
   - **1st Solution with out debounce** util
     ```jsx
     import React, { useState, useEffect, useRef } from "react";
@@ -463,6 +475,7 @@
 
     export default DebouncedSearch3;
     ```
+</details>
 
 ### **Problem 4.1 : Debounce and Reset input value**
 
@@ -470,7 +483,9 @@
   - Create an input box and a paragraph tag under this input box.
   - As User enters in that input box. Once the user stops entering into the input box, the program should wait for 4 seconds,
   - After 4 seconds the entered value should appear in the paragraph tag and the input box should be cleared.
-- **Solution**
+<details>
+  <summary> Solution: </summary>
+
   ```jsx
   import React, { useRef, useState } from "react";
 
@@ -508,6 +523,7 @@
 
   export default DebounceInputAndReset1;
   ```
+</details>
 
 ### Problem 5: Form Validation
 
@@ -516,7 +532,9 @@
   - The username should be at least 4 characters long, and the password should be at least 8 characters long.
   - Display validation messages for each input field as the user types.
   - Disable the submit button if either input is invalid.
-- **Solution**
+<details>
+  <summary> Solution: </summary>
+
   ```jsx
   /* 
   
@@ -587,6 +605,7 @@
 
   export default FormValidation;
   ```
+</details>
 
 ### Problem 6: Countdown Timer
 
