@@ -2,6 +2,9 @@ import "./App.css";
 import CharacterCount from "./Problem 1: Character Counter";
 import VisibilityToggle from "./Problem 2: Toggle Visibility";
 import PostContainer from "./Problem 3: Fetch and Display Data";
+import DebouncedSearch from "./Problem 4: Debounced Search";
+import DebouncedAndReset from "./Problem 4.1: Debounce and Reset input value";
+import FormValidation from "./Problem 5: Form Validation";
 
 function App() {
   return (
@@ -24,10 +27,23 @@ function App() {
         <hr />
 
         <h1>Problem 3: Fetch and Display Data </h1>
-        <VisibilityToggle>
+        <VisibilityToggle initialVisibility={false}>
           <PostContainer />
         </VisibilityToggle>
+
+        <hr />
+        <h1> Problem 4: Debounced Search </h1>
+        <DebouncedSearch />
+
+        <hr />
+        <h1>Problem 4.1: Debounce and Reset input value</h1>
+        <DebouncedAndReset />
+
+        <hr />
+        <h1>Problem 5: Form Validation</h1>
+        <FormValidation />
       </main>
+
       <footer></footer>
     </>
   );
