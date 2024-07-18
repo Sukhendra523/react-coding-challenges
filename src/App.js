@@ -5,6 +5,7 @@ import PostContainer from "./Problem 3: Fetch and Display Data";
 import DebouncedSearch from "./Problem 4: Debounced Search";
 import DebouncedAndReset from "./Problem 4.1: Debounce and Reset input value";
 import FormValidation from "./Problem 5: Form Validation";
+import CountdownTimer from "./Problem 6: Countdown Timer";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
         <hr />
 
         <h1>Problem 3: Fetch and Display Data </h1>
-        <VisibilityToggle initialVisibility={false}>
+        <VisibilityToggle initialVisibility={false} showLabel={"Fetch Posts"}>
           <PostContainer />
         </VisibilityToggle>
 
@@ -42,6 +43,10 @@ function App() {
         <hr />
         <h1>Problem 5: Form Validation</h1>
         <FormValidation />
+
+        <hr />
+        <h1>Problem 6: Countdown Timer</h1>
+        <CountdownTimer />
       </main>
 
       <footer></footer>

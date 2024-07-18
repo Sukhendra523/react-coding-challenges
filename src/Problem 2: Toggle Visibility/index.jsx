@@ -25,13 +25,20 @@ import { useState } from "react";
 // };
 
 //2nd scalable
-const VisibilityToggle = ({ children, initialVisibility = true }) => {
+const VisibilityToggle = ({
+  children,
+  initialVisibility = true,
+  hideLabel,
+  showLabel,
+}) => {
   const [show, setShow] = useState(initialVisibility);
 
   const toggleVisiblity = () => setShow(!show);
   return (
     <div>
-      <button onClick={toggleVisiblity}>{show ? "Hide" : "Show"}</button>
+      <button onClick={toggleVisiblity}>
+        {show ? hideLabel || "Hide" : showLabel || "Show"}
+      </button>
       {show && children}
     </div>
   );
