@@ -1,12 +1,42 @@
 # React problems to practice for frontend developer interviews:
 
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+
+- [Problem 1: Character Counter](#problem-1-character-counter)
+- [Problem 2: Toggle Visibility](#problem-2-toggle-visibility)
+- [Problem 3: Fetch and Display Data](#problem-3-fetch-and-display-data)
+- [**Problem 4: Debounced Search**](#problem-4-debounced-search)
+- [**Problem 4.1 : Debounce and Reset input value**](#problem-41-debounce-and-reset-input-value)
+- [Problem 5: Form Validation](#problem-5-form-validation)
+- [Problem 6: Countdown Timer](#problem-6-countdown-timer)
+- [Problem 7: Dynamic List](#problem-7-dynamic-list)
+- [Problem 8: Controlled Tabs](#problem-8-controlled-tabs)
+- [Problem 9: Light/Dark Mode Toggle](#problem-9-lightdark-mode-toggle)
+- [Problem 10: Modal Popup](#problem-10-modal-popup)
+- [Problem 11: Infinite Scroll](#problem-11-infinite-scroll)
+- [Problem 12: Sorting a List](#problem-12-sorting-a-list)
+- [Problem 13: Drag and Drop](#problem-13-drag-and-drop)
+- [Problem 14: Accordion](#problem-14-accordion)
+- [Problem 15: Editable Table](#problem-15-editable-table)
+- [Problem 16: Star Rating](#problem-16-star-rating)
+- [Problem 17: Weather App](#problem-17-weather-app)
+- [Problem 18: Timer with Start/Stop/Reset](#problem-18-timer-with-startstopreset)
+- [Problem 19: Dynamic Form Fields](#problem-19-dynamic-form-fields)
+- [Problem 20: Notification System](#problem-20-notification-system)
+
+<!-- TOC end -->
+
+<!-- TOC --><a name="problem-1-character-counter"></a>
 ### Problem 1: Character Counter
 
 - **Description:**
   - Create an input box and a paragraph tag under this input box.
   - As the user types in the input box, the paragraph tag should display the number of characters typed.
   - When the character count exceeds 10, the text color in the paragraph tag should turn red.
-- **Solution:**
+
+<details>
+  <summary> Solution: </summary>
+
   ```jsx
   import { useState } from "react";
   import "./styles.css";
@@ -36,7 +66,9 @@
     color: red;
   }
   ```
+</details>
 
+<!-- TOC --><a name="problem-2-toggle-visibility"></a>
 ### Problem 2: Toggle Visibility
 
 - **Description:**
@@ -44,7 +76,9 @@
   - Initially, the paragraph should be visible.
   - When the button is clicked, the paragraph should be hidden, and the button text should change to "Show".
   - When the button is clicked again, the paragraph should be shown, and the button text should change to "Hide".
-- **Solution:**
+<details>
+  <summary> Solution: </summary>
+  
   - **1st**
     ```jsx
     import { useState } from "react";
@@ -83,14 +117,18 @@
 
     export default VisibilityToggle;
     ```
+</details>
 
+<!-- TOC --><a name="problem-3-fetch-and-display-data"></a>
 ### Problem 3: Fetch and Display Data
 
 - **Description:**
   - Create a button that, when clicked, fetches data from an API and displays it in a list.
   - Use a placeholder API like [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
   - Display a loading message while fetching the data and handle any potential errors gracefully.
-- **Solution:**
+<details>
+  <summary> Solution: </summary>
+
   - 1st without custom hook
     ```jsx
     /* 
@@ -233,14 +271,18 @@
 
     export default PostContainer;
     ```
+</details>
 
+<!-- TOC --><a name="problem-4-debounced-search"></a>
 ### **Problem 4: Debounced Search**
 
 - **Description:**
   - Create a search input box.
   - As the user types in the search box, fetch suggestions from an API but only after the user stops typing for 300 milliseconds.
   - Display the fetched suggestions in a list below the search box.
-- **Solution**
+<details>
+  <summary> Solution: </summary>
+  
   - **1st Solution with out debounce** util
     ```jsx
     import React, { useState, useEffect, useRef } from "react";
@@ -463,14 +505,18 @@
 
     export default DebouncedSearch3;
     ```
+</details>
 
+<!-- TOC --><a name="problem-41-debounce-and-reset-input-value"></a>
 ### **Problem 4.1 : Debounce and Reset input value**
 
 - **Description:**
   - Create an input box and a paragraph tag under this input box.
   - As User enters in that input box. Once the user stops entering into the input box, the program should wait for 4 seconds,
   - After 4 seconds the entered value should appear in the paragraph tag and the input box should be cleared.
-- **Solution**
+<details>
+  <summary> Solution: </summary>
+
   ```jsx
   import React, { useRef, useState } from "react";
 
@@ -508,7 +554,9 @@
 
   export default DebounceInputAndReset1;
   ```
+</details>
 
+<!-- TOC --><a name="problem-5-form-validation"></a>
 ### Problem 5: Form Validation
 
 - **Description:**
@@ -516,7 +564,9 @@
   - The username should be at least 4 characters long, and the password should be at least 8 characters long.
   - Display validation messages for each input field as the user types.
   - Disable the submit button if either input is invalid.
-- **Solution**
+<details>
+  <summary> Solution: </summary>
+
   ```jsx
   /* 
   
@@ -587,7 +637,9 @@
 
   export default FormValidation;
   ```
+</details>
 
+<!-- TOC --><a name="problem-6-countdown-timer"></a>
 ### Problem 6: Countdown Timer
 
 - **Description:**
@@ -596,6 +648,7 @@
   - Display the remaining time in seconds in a paragraph tag.
   - When the timer reaches zero, display a message saying "Time's up!".
 
+<!-- TOC --><a name="problem-7-dynamic-list"></a>
 ### Problem 7: Dynamic List
 
 **Description:**
@@ -604,6 +657,7 @@
 - When the user types a value in the input box and clicks the button, add the value to a list displayed below.
 - Each item in the list should have a delete button that removes it from the list.
 
+<!-- TOC --><a name="problem-8-controlled-tabs"></a>
 ### Problem 8: Controlled Tabs
 
 **Description:**
@@ -612,6 +666,7 @@
 - Each tab should display different content when clicked.
 - Maintain the active tab's state and ensure the correct content is displayed.
 
+<!-- TOC --><a name="problem-9-lightdark-mode-toggle"></a>
 ### Problem 9: Light/Dark Mode Toggle
 
 **Description:**
@@ -620,6 +675,7 @@
 - Apply different styles for light and dark modes to the entire application.
 - Persist the selected mode in local storage so that it is maintained across page reloads.
 
+<!-- TOC --><a name="problem-10-modal-popup"></a>
 ### Problem 10: Modal Popup
 
 **Description:**
@@ -632,6 +688,7 @@ These problems cover a variety of React concepts and will help you prepare for a
 
 Here are 10 more frequently asked React frontend developer interview questions:
 
+<!-- TOC --><a name="problem-11-infinite-scroll"></a>
 ### Problem 11: Infinite Scroll
 
 **Description:**
@@ -640,6 +697,7 @@ Here are 10 more frequently asked React frontend developer interview questions:
 - As the user scrolls to the bottom of the list, fetch more data and append it to the existing list.
 - Display a loading indicator while fetching the new data.
 
+<!-- TOC --><a name="problem-12-sorting-a-list"></a>
 ### Problem 12: Sorting a List
 
 **Description:**
@@ -648,6 +706,7 @@ Here are 10 more frequently asked React frontend developer interview questions:
 - Clicking the sort button should toggle between sorting the list in ascending and descending order.
 - Display the sorted list accordingly.
 
+<!-- TOC --><a name="problem-13-drag-and-drop"></a>
 ### Problem 13: Drag and Drop
 
 **Description:**
@@ -655,6 +714,7 @@ Here are 10 more frequently asked React frontend developer interview questions:
 - Implement a simple drag-and-drop interface where items from a list can be reordered by dragging.
 - Use a library like `react-dnd` or the HTML5 drag-and-drop API to achieve this functionality.
 
+<!-- TOC --><a name="problem-14-accordion"></a>
 ### Problem 14: Accordion
 
 **Description:**
@@ -664,6 +724,7 @@ Here are 10 more frequently asked React frontend developer interview questions:
 - Clicking a section title should expand/collapse the section to show/hide the content.
 - Only one section should be expanded at a time.
 
+<!-- TOC --><a name="problem-15-editable-table"></a>
 ### Problem 15: Editable Table
 
 **Description:**
@@ -673,6 +734,7 @@ Here are 10 more frequently asked React frontend developer interview questions:
 - Provide a save button to save the edited data.
 - Validate the input data before saving and display validation messages if needed.
 
+<!-- TOC --><a name="problem-16-star-rating"></a>
 ### Problem 16: Star Rating
 
 **Description:**
@@ -681,6 +743,7 @@ Here are 10 more frequently asked React frontend developer interview questions:
 - The user should be able to click on the stars to set the rating.
 - Display the current rating as highlighted stars.
 
+<!-- TOC --><a name="problem-17-weather-app"></a>
 ### Problem 17: Weather App
 
 **Description:**
@@ -689,6 +752,7 @@ Here are 10 more frequently asked React frontend developer interview questions:
 - Display the current weather and a 5-day forecast.
 - Show a loading indicator while fetching data and handle any potential errors gracefully.
 
+<!-- TOC --><a name="problem-18-timer-with-startstopreset"></a>
 ### Problem 18: Timer with Start/Stop/Reset
 
 **Description:**
@@ -697,6 +761,7 @@ Here are 10 more frequently asked React frontend developer interview questions:
 - Provide buttons to start, stop, and reset the timer.
 - Display the elapsed time in a human-readable format (e.g., MM:SS).
 
+<!-- TOC --><a name="problem-19-dynamic-form-fields"></a>
 ### Problem 19: Dynamic Form Fields
 
 **Description:**
@@ -705,6 +770,7 @@ Here are 10 more frequently asked React frontend developer interview questions:
 - Allow the user to add or remove fields dynamically.
 - Collect and display the form data upon submission.
 
+<!-- TOC --><a name="problem-20-notification-system"></a>
 ### Problem 20: Notification System
 
 **Description:**
