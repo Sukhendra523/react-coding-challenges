@@ -17,7 +17,7 @@ const PostContainer = () => {
     loading,
     data: posts,
     error,
-  } = useFetchData("https://jsonplaceholder.typicode.com/posts", []);
+  } = useFetchData("https://jsonplaceholder.typicode.com/posts");
 
   return (
     <div>

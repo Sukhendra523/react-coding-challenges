@@ -6,6 +6,7 @@ import DebouncedSearch from "./Problem 4: Debounced Search";
 import DebouncedAndReset from "./Problem 4.1: Debounce and Reset input value";
 import FormValidation from "./Problem 5: Form Validation";
 import CountdownTimer from "./Problem 6: Countdown Timer";
+import DynamicList from "./Problem 7: Dynamic List";
 
 function App() {
   return (
@@ -47,6 +48,10 @@ function App() {
         <hr />
         <h1>Problem 6: Countdown Timer</h1>
         <CountdownTimer />
+
+        <hr />
+        <h1>Problem 7: Dynamic List</h1>
+        <DynamicList />
       </main>
 
       <footer></footer>
