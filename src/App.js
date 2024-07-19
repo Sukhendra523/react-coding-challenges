@@ -9,6 +9,7 @@ import CountdownTimer from "./Problem 6: Countdown Timer";
 import DynamicList from "./Problem 7: Dynamic List";
 import Tabs from "./Problem 8.1: Controlled Tabs";
 import DynamicRoutesNavigation from "./Problem 8.2: Dynamic Routes Tabs Navigations";
+import ToggleTheme from "./Problem 9: Light-Dark Mode Toggle";
 
 function App() {
   return (
@@ -62,6 +63,10 @@ function App() {
         <hr />
         <h1>Problem 8.2: Dynamic Routes Tabs Navigations</h1>
         <DynamicRoutesNavigation />
+
+        <hr />
+        <h1>Problem 9: Light-Dark Mode Toggle</h1>
+        <ToggleTheme />
       </main>
 
       <footer></footer>
