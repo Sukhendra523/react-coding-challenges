@@ -7,6 +7,8 @@ import DebouncedAndReset from "./Problem 4.1: Debounce and Reset input value";
 import FormValidation from "./Problem 5: Form Validation";
 import CountdownTimer from "./Problem 6: Countdown Timer";
 import DynamicList from "./Problem 7: Dynamic List";
+import Tabs from "./Problem 8.1: Controlled Tabs";
+import DynamicRoutesNavigation from "./Problem 8.2: Dynamic Routes Tabs Navigations";
 
 function App() {
   return (
@@ -52,6 +54,14 @@ function App() {
         <hr />
         <h1>Problem 7: Dynamic List</h1>
         <DynamicList />
+
+        <hr />
+        <h1>Problem 8.1: Controlled Tabs</h1>
+        <Tabs />
+
+        <hr />
+        <h1>Problem 8.2: Dynamic Routes Tabs Navigations</h1>
+        <DynamicRoutesNavigation />
       </main>
 
       <footer></footer>
