@@ -10,6 +10,7 @@ import DynamicList from "./Problem 7: Dynamic List";
 import Tabs from "./Problem 8.1: Controlled Tabs";
 import DynamicRoutesNavigation from "./Problem 8.2: Dynamic Routes Tabs Navigations";
 import ToggleTheme from "./Problem 9: Light-Dark Mode Toggle";
+import ModalPopup from "./Problem 10: Modal Popup";
 
 function App() {
   return (
@@ -67,6 +68,10 @@ function App() {
         <hr />
         <h1>Problem 9: Light-Dark Mode Toggle</h1>
         <ToggleTheme />
+
+        <hr />
+        <h1>Problem 10: Modal Popup</h1>
+        <ModalPopup />
       </main>
 
       <footer></footer>

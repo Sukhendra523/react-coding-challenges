@@ -1,0 +1,41 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 1000;
+
+  .modal-content {
+    width: 600px;
+    max-width: 1200px;
+    min-height: 600px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 20px 0px #00000073;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1001;
+
+    header {
+      display: flex;
+      justify-content: space-between;
+    }
+    main {
+      min-height: 80%;
+      width: 100%;
+    }
+    footer {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+    }
+  }
+}
