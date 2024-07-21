@@ -3,7 +3,7 @@ import "./styles.css";
 import useTheme from "./useTheme";
 
 const ToggleTheme2 = () => {
-  const { isDarkMode, toggleTheme } = useTheme();
+  const { isDarkMode, toggleTheme, theme } = useTheme();
 
   return (
     <div>
@@ -30,12 +30,12 @@ const ToggleTheme2 = () => {
         </button>
       </header>
       <main>
-        <h1>Heading Light Dark</h1>
+        <h1>Heading {theme} mode</h1>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
-          praesentium perspiciatis, esse, quis voluptatum repellendus, vitae
-          expedita hic optio deserunt tempora aspernatur corporis iusto libero
-          nam quisquam minus. Quo, eveniet?
+          Using custom hook Lorem ipsum, dolor sit amet consectetur adipisicing
+          elit. Doloribus praesentium perspiciatis, esse, quis voluptatum
+          repellendus, vitae expedita hic optio deserunt tempora aspernatur
+          corporis iusto libero nam quisquam minus. Quo, eveniet?
         </p>
       </main>
       <footer style={{ textAlign: "center" }}>
