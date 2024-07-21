@@ -12,6 +12,7 @@ import DynamicRoutesNavigation from "./Problem 8.2: Dynamic Routes Tabs Navigati
 import ToggleTheme from "./Problem 9: Light-Dark Mode Toggle";
 import ModalPopup from "./Problem 10: Modal Popup";
 import FetchDataOnScroll from "./Problem 11: Infinite Scroll";
+import SortList from "./Problem 12: Sorting a List";
 
 function App() {
   return (
@@ -77,6 +78,10 @@ function App() {
         <hr />
         <h1>Problem 11: Infinite Scroll</h1>
         <FetchDataOnScroll />
+
+        <hr />
+        <h1>Problem 12: Sorting a List</h1>
+        <SortList />
       </main>
 
       <footer></footer>
