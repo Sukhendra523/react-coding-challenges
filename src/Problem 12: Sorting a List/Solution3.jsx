@@ -36,6 +36,8 @@ const SortList2 = ({ sortBy = "price" }) => {
         padding: "1rem",
       }}
     >
+      <h3>Port products by {sortBy}</h3>
+
       {products.length > 0 && (
         <button
           onClick={toggleSortOder}
