@@ -13,6 +13,7 @@ import ToggleTheme from "./Problem 9: Light-Dark Mode Toggle";
 import ModalPopup from "./Problem 10: Modal Popup";
 import FetchDataOnScroll from "./Problem 11: Infinite Scroll";
 import SortList from "./Problem 12: Sorting a List";
+import DragAndDrop from "./Problem 13: Drag and Drop";
 
 function App() {
   return (
@@ -82,6 +83,10 @@ function App() {
         <hr />
         <h1>Problem 12: Sorting a List</h1>
         <SortList />
+
+        <hr />
+        <h1> Problem 13: Drag and Drop </h1>
+        <DragAndDrop />
       </main>
 
       <footer></footer>
