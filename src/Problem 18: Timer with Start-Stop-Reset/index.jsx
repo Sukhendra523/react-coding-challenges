@@ -11,8 +11,8 @@ import { useRef, useState } from "react";
 
 */
 
-const renderTimeDigits = (number) => {
-  return number > 9 ? number : "0" + number;
+const padDigitWithZero = (number) => {
+  return String(number).padStart(2, "0");
 };
 
 function convertSecondsToTime(seconds) {
@@ -20,7 +20,7 @@ function convertSecondsToTime(seconds) {
   const m = Math.floor((seconds % 3600) / 60);
   const s = seconds % 60;
 
-  return `${renderTimeDigits(h)} : ${renderTimeDigits(m)} : ${renderTimeDigits(
+  return `${padDigitWithZero(h)} : ${padDigitWithZero(m)} : ${padDigitWithZero(
     s
   )}`;
 }
