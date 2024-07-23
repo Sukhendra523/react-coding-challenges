@@ -15,6 +15,7 @@ import FetchDataOnScroll from "./Problem 11: Infinite Scroll";
 import SortList from "./Problem 12: Sorting a List";
 import DragAndDrop from "./Problem 13: Drag and Drop";
 import StopWatch from "./Problem 18: Timer with Start-Stop-Reset";
+import DynamicFormFields from "./Problem 19.1: Dynamic Form Fields";
 
 function App() {
   return (
@@ -92,6 +93,10 @@ function App() {
         <hr />
         <h1>Problem 18: Timer with Start-Stop-Reset</h1>
         <StopWatch />
+
+        <hr />
+        <h1>Problem 19: Dynamic Form Fields</h1>
+        <DynamicFormFields />
       </main>
 
       <footer></footer>
