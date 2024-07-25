@@ -16,6 +16,7 @@ import SortList from "./Problem 12: Sorting a List";
 import DragAndDrop from "./Problem 13: Drag and Drop";
 import StopWatch from "./Problem 18: Timer with Start-Stop-Reset";
 import DynamicFormFields from "./Problem 19.1: Dynamic Form Fields";
+import ToastNotificationDemo from "./Problem 20: Notification System";
 
 function App() {
   return (
@@ -97,6 +98,10 @@ function App() {
         <hr />
         <h1>Problem 19: Dynamic Form Fields</h1>
         <DynamicFormFields />
+
+        <hr />
+        <h1>Problem 20: Notification System</h1>
+        <ToastNotificationDemo />
       </main>
 
       <footer></footer>
