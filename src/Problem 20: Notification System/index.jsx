@@ -32,7 +32,7 @@ const ToastNotificationDemo = () => {
 
           showNotifications({
             message: `Toast Message ${count + 1}`,
-            duration: 30000,
+            duration: 3000,
           });
         }}
       >
