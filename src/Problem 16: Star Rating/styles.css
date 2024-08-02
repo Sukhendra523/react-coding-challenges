@@ -1,0 +1,39 @@
+.rating-icon {
+  clip-path: polygon(
+    50% 0%,
+    66% 32%,
+    100% 38%,
+    78% 64%,
+    83% 100%,
+    50% 83%,
+    17% 100%,
+    22% 64%,
+    0 38%,
+    34% 32%
+  );
+
+  &.rated {
+    clip-path: polygon(
+      50% 0%,
+      66% 32%,
+      100% 38%,
+      78% 64%,
+      83% 100%,
+      50% 83%,
+      17% 100%,
+      22% 64%,
+      0 38%,
+      34% 32%
+    );
+    background: linear-gradient(
+      90deg,
+      yellow,
+      orange 30% 50%,
+      #184580 50%,
+      70%,
+      #173a75 100%
+    );
+    background-size: 205% 100%;
+    background-position: 0 0;
+  }
+}
