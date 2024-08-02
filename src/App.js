@@ -17,6 +17,8 @@ import DragAndDrop from "./Problem 13: Drag and Drop";
 import StopWatch from "./Problem 18: Timer with Start-Stop-Reset";
 import DynamicFormFields from "./Problem 19.1: Dynamic Form Fields";
 import ToastNotificationDemo from "./Problem 20: Notification System";
+import StarRating from "./Problem 16: Star Rating";
+import TrafficLight from "./Problem 21: Traffic light";
 
 function App() {
   return (
@@ -92,6 +94,10 @@ function App() {
         <DragAndDrop />
 
         <hr />
+        <h1>Problem 16: Star Rating</h1>
+        <StarRating />
+
+        <hr />
         <h1>Problem 18: Timer with Start-Stop-Reset</h1>
         <StopWatch />
 
@@ -102,6 +108,10 @@ function App() {
         <hr />
         <h1>Problem 20: Notification System</h1>
         <ToastNotificationDemo />
+
+        <hr />
+        <h1>Problem 21: Traffic Light</h1>
+        <TrafficLight />
       </main>
 
       <footer></footer>
