@@ -19,6 +19,7 @@ import DynamicFormFields from "./Problem 19.1: Dynamic Form Fields";
 import ToastNotificationDemo from "./Problem 20: Notification System";
 import StarRating from "./Problem 16: Star Rating";
 import TrafficLight from "./Problem 21: Traffic light";
+import Calculator from "./Problem 22: Create Google calculator-app";
 
 function App() {
   return (
@@ -112,6 +113,10 @@ function App() {
         <hr />
         <h1>Problem 21: Traffic Light</h1>
         <TrafficLight />
+
+        <hr />
+        <h1>Problem 22: Create Google calculator app</h1>
+        <Calculator />
       </main>
 
       <footer></footer>
