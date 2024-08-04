@@ -10,7 +10,6 @@
 
 import CountdownTimer1 from "./Solution1";
 // import CountdownTimer2 from "./Solution2";
-// import CountdownTimer3 from "./Solution3";
 
 const CountdownTimer = () => {
   return (
