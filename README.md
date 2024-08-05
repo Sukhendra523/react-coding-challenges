@@ -26,6 +26,8 @@
 
 <!-- TOC end -->
 
+[Notion Notes ](https://interview-preparations-notes.notion.site/React-84640b455f8846e19b01c1e6b9faa317)
+
 <!-- TOC --><a name="problem-1-character-counter"></a>
 ### Problem 1: Character Counter
 
