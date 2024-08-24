@@ -6,6 +6,7 @@ import DebouncedSearch from "./Problem 4: Debounced Search";
 import DebouncedAndReset from "./Problem 4.1: Debounce and Reset input value";
 import FormValidation from "./Problem 5: Form Validation";
 import CountdownTimer from "./Problem 6.1: Countdown Timer";
+import CountdownTimerWithStop from "./Problem 6.2: Countdown Timer with start-stop";
 import DynamicList from "./Problem 7: Dynamic List";
 import Tabs from "./Problem 8.1: Controlled Tabs";
 import DynamicRoutesNavigation from "./Problem 8.2: Dynamic Routes Tabs Navigations";
@@ -14,13 +15,13 @@ import ModalPopup from "./Problem 10: Modal Popup";
 import FetchDataOnScroll from "./Problem 11: Infinite Scroll";
 import SortList from "./Problem 12: Sorting a List";
 import DragAndDrop from "./Problem 13: Drag and Drop";
+import Accordion from "./Problem 14: Accordion";
+import StarRating from "./Problem 16: Star Rating";
 import StopWatch from "./Problem 18: Timer starts from 0 with Start-Stop-Reset";
 import DynamicFormFields from "./Problem 19.1: Dynamic Form Fields";
 import ToastNotificationDemo from "./Problem 20: Notification System";
-import StarRating from "./Problem 16: Star Rating";
 import TrafficLight from "./Problem 21: Traffic light";
 import Calculator from "./Problem 22: Create Google calculator-app";
-import CountdownTimerWithStop from "./Problem 6.2: Countdown Timer with start-stop";
 
 function App() {
   return (
@@ -98,6 +99,10 @@ function App() {
         <hr />
         <h1> Problem 13: Drag and Drop </h1>
         <DragAndDrop />
+
+        <hr />
+        <h1>Problem 14: Accordion</h1>
+        <Accordion />
 
         <hr />
         <h1>Problem 16: Star Rating</h1>

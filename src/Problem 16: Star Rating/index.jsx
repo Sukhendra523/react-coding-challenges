@@ -13,25 +13,30 @@ import { useState } from "react";
 
 import "./styles.css";
 
-const startIcon = <>&#9734;</>;
+const startIcon = <>&#9733;</>;
 
-function StarRating({ maxRating = 5 }) {
+function StarRating({ onChange, maxRating = 5 }) {
   const [rating, setRating] = useState(-1);
+  const [ratingHovered, setRatingHovered] = useState(-1);
   const startIcons = Array(maxRating).fill(0);
+
+  const ratingHandler = (i) => {
+    setRating(i);
+    onChange?.(i);
+  };
 
   return (
     <div style={{ display: "flex", justifyContent: "center", gap: "1rem" }}>
       {startIcons.map((_, i) => {
         return (
           <button
-            className={`rating-icon ${i <= rating ? "rated" : ""}`}
+            className={`rating-icon ${i <= rating ? "rated" : ""} ${
+              i <= ratingHovered ? "hovered" : ""
+            }`}
             key={i}
-            onClick={() => setRating(i)}
-            style={{
-              backgroundColor: "white",
-              border: "none",
-              fontSize: "2rem",
-            }}
+            onClick={() => ratingHandler(i)}
+            onMouseEnter={() => setRatingHovered(i)}
+            onMouseLeave={() => setRatingHovered(-1)}
           >
             {startIcon}
           </button>
