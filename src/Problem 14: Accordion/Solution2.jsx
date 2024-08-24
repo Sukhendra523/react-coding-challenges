@@ -50,7 +50,7 @@ const Accordion2 = ({ sections = defaultSections }) => {
         return (
           <div key={id}>
             <h2
-              onClick={() => setExpandedSectionId(id)}
+              onClick={() => setExpandedSectionId(isExpanded ? null : id)}
               style={{ cursor: "pointer" }}
             >
               {title}{" "}
