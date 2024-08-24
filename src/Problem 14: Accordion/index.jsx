@@ -4,7 +4,7 @@
 // - Only one section should be expanded at a time.
 
 import React from "react";
-import Accordion1 from "./Solution1";
+// import Accordion1 from "./Solution1";
 import Accordion2 from "./Solution2";
 
 const Accordion = () => {
