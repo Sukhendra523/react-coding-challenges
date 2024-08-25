@@ -1037,7 +1037,6 @@ export default CountdownTimer3;
 <details>
   <summary> Solution: </summary>
 
-
 ```jsx
 import React, { useState } from "react";
 
@@ -1355,12 +1354,12 @@ export default Tabs;
 - Apply different styles for light and dark modes to the entire application.
 - Persist the selected mode in local storage so that it is maintained across page reloads.
 
-    <details>
-      <summary> Solution: </summary>
+<details>
+ <summary> Solution: </summary>
+ 
+  - **Solution 1 - SwitchTheme component**
 
-        - **Solution 1 - SwitchTheme component**
-
-            Home.jsx
+      Home.jsx
 
 ```jsx
 import React from "react";
@@ -1401,7 +1400,7 @@ const Home = () => {
 export default Home;
 ```
 
-            **SwitchTheme.jsx**
+**SwitchTheme.jsx**
 
 ```jsx
 /*
@@ -1449,7 +1448,7 @@ const SwitchTheme = () => {
 export default SwitchTheme;
 ```
 
-            **styles.css**
+**styles.css**
 
 ```css
 body {
@@ -1481,7 +1480,7 @@ h1 {
 }
 ```
 
-        - **Solution 2 - using custom Hook useTheme**
+- **Solution 2 - using custom Hook useTheme**
 
 ```jsx
 import React from "react";
@@ -1535,7 +1534,7 @@ const ToggleTheme2 = () => {
 export default ToggleTheme2;
 ```
 
-            **useTheme.jsx**
+**useTheme.jsx**
 
 ```jsx
 /*
@@ -1571,7 +1570,7 @@ const useTheme = (isDark = false) => {
 export default useTheme;
 ```
 
-            **styles.css**
+**styles.css**
 
 ```css
 body {
@@ -1603,7 +1602,7 @@ h1 {
 }
 ```
 
-  </details>
+</details>
 
 [Back to top](#table-of-contents)
 
@@ -2144,7 +2143,6 @@ export default SortList2;
 <details>
   <summary> Solution: </summary>
 
-
 ```jsx
 import { useState } from "react";
 
@@ -2529,7 +2527,6 @@ export default DragAndDrop;
 <details>
   <summary> Solution: </summary>
 
-
 ```jsx
 import React, { useState } from "react";
 
@@ -2641,7 +2638,6 @@ export default WeatherApp;
 <details>
   <summary> Solution: </summary>
 
-
 ```jsx
 import { useRef, useState } from "react";
 
@@ -2729,7 +2725,6 @@ export default StopWatch;
 - Collect and display the form data upon submission.
 <details>
   <summary> Solution: </summary>
-
 
 ```jsx
 import { useState } from "react";
