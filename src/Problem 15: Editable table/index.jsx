@@ -76,16 +76,16 @@ const EditableTable = ({ data = placeholderData }) => {
         <thead>
           <tr>
             {Object.keys(tableData[0]).map((key) => (
-              <th>{key.charAt(0).toUpperCase() + key.slice(1)}</th>
+              <th key={key}>{key.charAt(0).toUpperCase() + key.slice(1)}</th>
             ))}
             <th>Action</th>
           </tr>
         </thead>
         <tbody>
           {tableData.map((rowData, rowIndex) => (
-            <tr>
-              {Object.entries(rowData).map(([colName, cellData]) => (
-                <td>
+            <tr key={rowIndex}>
+              {Object.entries(rowData).map(([colName, cellData], i) => (
+                <td key={colName + i}>
                   {colName === "id" ? (
                     cellData
                   ) : (
