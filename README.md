@@ -1,13 +1,13 @@
 # React problems to practice for frontend developer interviews:
 
-<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
+# Table of contents
 
 - [Problem 1: Character Counter](#problem-1-character-counter)
 - [Problem 2: Toggle Visibility](#problem-2-toggle-visibility)
 - [Problem 3: Fetch and Display Data](#problem-3-fetch-and-display-data)
 - [Problem 3.1: Implement caching HTTP requests](#problem-31-implement-caching-http-requests)
 - [Problem 4: Debounced Search](#problem-4-debounced-search)
-- [Problem 4.1 : Debounce and Reset input value](#problem-41-debounce-and-reset-input-value)
+- [Problem 4.1 : Debounce and Reset input value](#problem-41--debounce-and-reset-input-value)
 - [Problem 5: Form Validation](#problem-5-form-validation)
 - [Problem 6.1: Countdown Timer](#problem-61-countdown-timer)
 - [Problem 6.2: Countdown Timer with start and stop button](#problem-62-countdown-timer-with-start-and-stop-button)
@@ -36,10 +36,6 @@
 - [Problem 25: Smart-Search](#problem-25-smart-search)
 - [Problem 26: Stepper](#problem-26-stepper)
 - [Other Repos for react coding challenges](#other-repos-for-react-coding-challenges)
-
-<!-- TOC end -->
-
-<!-- TOC --><a name="problem-1-character-counter"></a>
 
 ### Problem 1: Character Counter
 
@@ -82,8 +78,6 @@
     }
     ```
 </details>
-
-<!-- TOC --><a name="problem-2-toggle-visibility"></a>
 
 ### Problem 2: Toggle Visibility
 
@@ -140,8 +134,6 @@
         
         ```
 </details>
-
-<!-- TOC --><a name="problem-3-fetch-and-display-data"></a>
 
 ### Problem 3: Fetch and Display Data
 
@@ -295,8 +287,6 @@
         ```
 </details>
 
-<!-- TOC --><a name="problem-31-implement-caching-http-requests"></a>
-
 ### Problem 3.1: Implement caching HTTP requests
 
 <details>
@@ -383,8 +373,6 @@ export default App;
 ```
 
 </details>
-
-<!-- TOC --><a name="problem-4-debounced-search"></a>
 
 ### Problem 4: Debounced Search
 
@@ -628,8 +616,6 @@ export default App;
 
 </details>
 
-<!-- TOC --><a name="problem-41-debounce-and-reset-input-value"></a>
-
 ### Problem 4.1 : Debounce and Reset input value
 
 - **Description:**
@@ -679,8 +665,6 @@ export default App;
     
     ```
 </details>
-
-<!-- TOC --><a name="problem-5-form-validation"></a>
 
 ### Problem 5: Form Validation
 
@@ -761,8 +745,6 @@ export default App;
     
     ```
 </details>
-
-<!-- TOC --><a name="problem-61-countdown-timer"></a>
 
 ### Problem 6.1: Countdown Timer
 
@@ -872,8 +854,6 @@ export default App;
         ```
 
 </details>
-
-<!-- TOC --><a name="problem-62-countdown-timer-with-start-and-stop-button"></a>
 
 ### Problem 6.2: Countdown Timer with start and stop button
 
@@ -1031,8 +1011,6 @@ export default App;
 
 </details>
 
-<!-- TOC --><a name="problem-7-dynamic-list"></a>
-
 ### Problem 7: Dynamic List
 
 **Description:**
@@ -1089,8 +1067,6 @@ export default App;
     
     ```
 </details>
-
-<!-- TOC --><a name="problem-8-controlled-tabs"></a>
 
 ### Problem 8: Controlled Tabs
 
@@ -1207,8 +1183,6 @@ export default App;
     
     ```
 </details>
-
-<!-- TOC --><a name="problem-82-dynamic-routes-tabs-navigations"></a>
 
 ### Problem 8.2: Dynamic Routes Tabs Navigations
 
@@ -1349,8 +1323,6 @@ export default Tabs;
 ```
 
 </details>
-
-<!-- TOC --><a name="problem-9-lightdark-mode-toggle"></a>
 
 ### Problem 9: Light/Dark Mode Toggle
 
@@ -1614,8 +1586,6 @@ export default Tabs;
 
   </details>
 
-<!-- TOC --><a name="problem-10-modal-popup"></a>
-
 ### Problem 10: Modal Popup
 
 **Description:**
@@ -1762,8 +1732,6 @@ export default Tabs;
     ```
 </details>
 
-<!-- TOC --><a name="problem-11-infinite-scroll"></a>
-
 ### Problem 11: Infinite Scroll
 
 **Description:**
@@ -1886,8 +1854,6 @@ export default Tabs;
     
     ```
 </details>
-
-<!-- TOC --><a name="problem-12-sorting-a-list"></a>
 
 ### Problem 12: Sorting a List
 
@@ -2145,8 +2111,6 @@ export default Tabs;
 
 </details>
 
-<!-- TOC --><a name="problem-13-drag-and-drop"></a>
-
 ### Problem 13: Drag and Drop
 
 **Description:**
@@ -2221,8 +2185,6 @@ export default Tabs;
     ```
 </details>
 
-<!-- TOC --><a name="problem-141-accordion"></a>
-
 ### Problem 14.1: Accordion
 
 - **Description:**
@@ -2294,8 +2256,6 @@ export default Tabs;
     ```
 </details>
 
-<!-- TOC --><a name="problem-142-accordion"></a>
-
 ### Problem 14.2: Accordion
 
 - **Description:**
@@ -2307,8 +2267,6 @@ export default Tabs;
 <details>
   <summary> Solution: </summary>
 </details>
-
-<!-- TOC --><a name="problem-15-editable-table"></a>
 
 ### Problem 15: Editable Table
 
@@ -2452,8 +2410,6 @@ export default Tabs;
     ```
 </details>
 
-<!-- TOC --><a name="problem-16-star-rating"></a>
-
 ### Problem 16: Star Rating
 
 - **Description:**
@@ -2531,8 +2487,6 @@ export default Tabs;
     }
     ```
 </details>
-
-<!-- TOC --><a name="problem-17-weather-app"></a>
 
 ### Problem 17: Weather App
 
@@ -2639,8 +2593,6 @@ export default Tabs;
     ```
 </details>
 
-<!-- TOC --><a name="problem-18-timer-with-startstopreset"></a>
-
 ### Problem 18: Timer with Start/Stop/Reset
 
 **Description:**
@@ -2727,8 +2679,6 @@ export default Tabs;
     
     ```
 </details>
-
-<!-- TOC --><a name="problem-19-dynamic-form-fields"></a>
 
 ### Problem 19: Dynamic Form Fields
 
@@ -2826,11 +2776,7 @@ export default Tabs;
     ```
 </details>
 
-<!-- TOC --><a name="problem-192-dynamic-config-driven-form"></a>
-
 ### Problem 19.2: Dynamic Config Driven Form
-
-<!-- TOC --><a name="problem-20-notification-system"></a>
 
 ### Problem 20: Notification System
 
@@ -2966,8 +2912,6 @@ export default Tabs;
     ```
 </details>
 
-<!-- TOC --><a name="problem-21-traffic-light"></a>
-
 ### Problem 21: Traffic Light
 
 **Description:**
@@ -3073,8 +3017,6 @@ styles.css
 
 </details>
 
-<!-- TOC --><a name="problem-22-create-google-calculator-app"></a>
-
 ### Problem 22: Create Google calculator app
 
 - **Description**
@@ -3096,7 +3038,7 @@ styles.css
 
         Here’s the code to implement such a calculator in React:
 
-        ### Calculator Component
+        #### Calculator Component
 
         ```jsx
         import React, { useState } from "react";
@@ -3176,7 +3118,7 @@ styles.css
 
         ```
 
-        ### CSS for Styling (styles.css)
+        #### CSS for Styling (styles.css)
 
         ```css
         .calculator {
@@ -3237,7 +3179,7 @@ styles.css
 
         ```
 
-        ### Explanation
+        #### Explanation
 
         1. **State Management**:
             - `expression`: Stores the current input expression.
@@ -3268,7 +3210,7 @@ styles.css
 
         ```
 
-        ### 2. Update Calculator Component
+        #### 2. Update Calculator Component
 
         Now, update your `Calculator` component to use `mathjs` for expression evaluation.
 
@@ -3353,7 +3295,7 @@ styles.css
         export default Calculator2;
         ```
 
-        ### CSS for Styling (styles.css)
+        #### CSS for Styling (styles.css)
 
         This remains the same:
 
@@ -3416,7 +3358,7 @@ styles.css
 
         ```
 
-        ### Explanation
+        #### Explanation
 
         1. **Mathjs Integration**:
             - The `mathjs` library is used to evaluate the mathematical expression.
@@ -3436,7 +3378,7 @@ styles.css
 
         it is possible to evaluate mathematical expressions without using external libraries by implementing a basic expression parser. Here's how you can build a simple calculator in React without relying on `eval` or external libraries:
 
-        ### Calculator Component
+        #### Calculator Component
 
         ```jsx
         import React, { useState } from "react";
@@ -3589,7 +3531,7 @@ styles.css
 
         ```
 
-        ### CSS for Styling (styles.css)
+        #### CSS for Styling (styles.css)
 
         ```css
         .calculator {
@@ -3650,7 +3592,7 @@ styles.css
 
         ```
 
-        ### Explanation
+        #### Explanation
 
         1. **State Management**:
             - `expression`: Stores the current input expression.
@@ -3668,27 +3610,15 @@ styles.css
 
 </details>
 
-<!-- TOC --><a name="problem-23-selectable-grid"></a>
-
 ### Problem 23: Selectable grid
-
-<!-- TOC --><a name="problem-24-multi-select-search"></a>
 
 ### Problem 24: Multi-Select-Search
 
-<!-- TOC --><a name="problem-25-pagination"></a>
-
 ### Problem 25: Pagination
-
-<!-- TOC --><a name="problem-25-smart-search"></a>
 
 ### Problem 25: Smart-Search
 
-<!-- TOC --><a name="problem-26-stepper"></a>
-
 ### Problem 26: Stepper
-
-<!-- TOC --><a name="other-repos-for-react-coding-challenges"></a>
 
 ### Other Repos for react coding challenges
 
