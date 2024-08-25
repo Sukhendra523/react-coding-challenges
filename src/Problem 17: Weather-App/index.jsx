@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 
 const WeatherApp = () => {
   const [city, setCity] = useState("");
@@ -6,8 +6,7 @@ const WeatherApp = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const apiKey = process.env.WEATHER_API_KEY; // Replace with your OpenWeatherMap API key
-
+  const apiKey = process.env.REACT_APP_WEATHER_API_KEY; // Replace with your OpenWeatherMap API key
   const fetchWeatherData = async (city) => {
     setLoading(true);
     setError("");
@@ -38,6 +37,10 @@ const WeatherApp = () => {
     }
   };
 
+  const handleInputChange = useCallback((e) => {
+    setCity(e.target.value);
+  }, []);
+
   return (
     <div style={{ padding: "20px", textAlign: "center" }}>
       <h1>5 day weather forecast</h1>
@@ -46,7 +49,7 @@ const WeatherApp = () => {
           type="text"
           placeholder="Enter city"
           value={city}
-          onChange={(e) => setCity(e.target.value)}
+          onChange={handleInputChange}
           style={{ padding: "10px", marginRight: "10px" }}
         />
         <button type="submit" style={{ padding: "10px" }}>
