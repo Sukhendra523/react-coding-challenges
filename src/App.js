@@ -18,6 +18,7 @@ import DragAndDrop from "./Problem 13: Drag and Drop";
 import Accordion from "./Problem 14: Accordion";
 import EditableTable from "./Problem 15: Editable table";
 import StarRating from "./Problem 16: Star Rating";
+import WeatherApp from "./Problem 17: Weather-App";
 import StopWatch from "./Problem 18: Timer starts from 0 with Start-Stop-Reset";
 import DynamicFormFields from "./Problem 19.1: Dynamic Form Fields";
 import ToastNotificationDemo from "./Problem 20: Notification System";
@@ -112,6 +113,10 @@ function App() {
         <hr />
         <h1>Problem 16: Star Rating</h1>
         <StarRating />
+
+        <hr />
+        <h1>Problem 17: Weather App</h1>
+        <WeatherApp />
 
         <hr />
         <h1>Problem 18: Timer with Start-Stop-Reset</h1>
