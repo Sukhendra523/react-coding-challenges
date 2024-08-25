@@ -16,6 +16,7 @@ import FetchDataOnScroll from "./Problem 11: Infinite Scroll";
 import SortList from "./Problem 12: Sorting a List";
 import DragAndDrop from "./Problem 13: Drag and Drop";
 import Accordion from "./Problem 14: Accordion";
+import EditableTable from "./Problem 15: Editable table";
 import StarRating from "./Problem 16: Star Rating";
 import StopWatch from "./Problem 18: Timer starts from 0 with Start-Stop-Reset";
 import DynamicFormFields from "./Problem 19.1: Dynamic Form Fields";
@@ -103,6 +104,10 @@ function App() {
         <hr />
         <h1>Problem 14: Accordion</h1>
         <Accordion />
+
+        <hr />
+        <h1>Problem 15: Editable Table</h1>
+        <EditableTable />
 
         <hr />
         <h1>Problem 16: Star Rating</h1>
