@@ -81,6 +81,8 @@
     ```
 </details>
 
+[Back to top](#table-of-contents)
+
 ### Problem 2: Toggle Visibility
 
 - **Description:**
@@ -136,6 +138,8 @@
         
         ```
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 3: Fetch and Display Data
 
@@ -289,6 +293,8 @@
         ```
 </details>
 
+[Back to top](#table-of-contents)
+
 ### Problem 3.1: Implement caching HTTP requests
 
 <details>
@@ -375,6 +381,8 @@ export default App;
 ```
 
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 4: Debounced Search
 
@@ -618,6 +626,8 @@ export default App;
 
 </details>
 
+[Back to top](#table-of-contents)
+
 ### Problem 4.1 : Debounce and Reset input value
 
 - **Description:**
@@ -664,9 +674,12 @@ export default App;
     };
     
     export default DebounceInputAndReset1;
-    
+
     ```
+
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 5: Form Validation
 
@@ -747,6 +760,8 @@ export default App;
     
     ```
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 6.1: Countdown Timer
 
@@ -856,6 +871,8 @@ export default App;
         ```
 
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 6.2: Countdown Timer with start and stop button
 
@@ -1013,6 +1030,8 @@ export default App;
 
 </details>
 
+[Back to top](#table-of-contents)
+
 ### Problem 7: Dynamic List
 
 **Description:**
@@ -1069,6 +1088,8 @@ export default App;
     
     ```
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 8: Controlled Tabs
 
@@ -1185,6 +1206,8 @@ export default App;
     
     ```
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 8.2: Dynamic Routes Tabs Navigations
 
@@ -1325,6 +1348,8 @@ export default Tabs;
 ```
 
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 9: Light/Dark Mode Toggle
 
@@ -1588,6 +1613,8 @@ export default Tabs;
 
   </details>
 
+[Back to top](#table-of-contents)
+
 ### Problem 10: Modal Popup
 
 **Description:**
@@ -1734,6 +1761,8 @@ export default Tabs;
     ```
 </details>
 
+[Back to top](#table-of-contents)
+
 ### Problem 11: Infinite Scroll
 
 **Description:**
@@ -1856,6 +1885,8 @@ export default Tabs;
     
     ```
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 12: Sorting a List
 
@@ -2113,6 +2144,8 @@ export default Tabs;
 
 </details>
 
+[Back to top](#table-of-contents)
+
 ### Problem 13: Drag and Drop
 
 **Description:**
@@ -2187,6 +2220,8 @@ export default Tabs;
     ```
 </details>
 
+[Back to top](#table-of-contents)
+
 ### Problem 14.1: Accordion
 
 - **Description:**
@@ -2258,6 +2293,8 @@ export default Tabs;
     ```
 </details>
 
+[Back to top](#table-of-contents)
+
 ### Problem 14.2: Accordion
 
 - **Description:**
@@ -2269,6 +2306,8 @@ export default Tabs;
 <details>
   <summary> Solution: </summary>
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 15: Editable Table
 
@@ -2412,6 +2451,8 @@ export default Tabs;
     ```
 </details>
 
+[Back to top](#table-of-contents)
+
 ### Problem 16: Star Rating
 
 - **Description:**
@@ -2489,6 +2530,8 @@ export default Tabs;
     }
     ```
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 17: Weather App
 
@@ -2595,6 +2638,8 @@ export default Tabs;
     ```
 </details>
 
+[Back to top](#table-of-contents)
+
 ### Problem 18: Timer with Start/Stop/Reset
 
 **Description:**
@@ -2681,6 +2726,8 @@ export default Tabs;
     
     ```
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 19: Dynamic Form Fields
 
@@ -2777,6 +2824,8 @@ export default Tabs;
     
     ```
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 19.2: Dynamic Config Driven Form
 
@@ -2914,6 +2963,8 @@ export default Tabs;
     ```
 </details>
 
+[Back to top](#table-of-contents)
+
 ### Problem 21: Traffic Light
 
 **Description:**
@@ -3018,6 +3069,8 @@ styles.css
 ```
 
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 22: Create Google calculator app
 
@@ -3611,6 +3664,8 @@ styles.css
         By implementing a custom parser, you avoid the security issues associated with `eval` and `Function`. This implementation handles basic arithmetic operations and respects operator precedence.
 
 </details>
+
+[Back to top](#table-of-contents)
 
 ### Problem 23: Selectable grid
 
