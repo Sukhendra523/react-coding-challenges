@@ -24,6 +24,7 @@ import DynamicFormFields from "./Problem 19.1: Dynamic Form Fields";
 import ToastNotificationDemo from "./Problem 20: Notification System";
 import TrafficLight from "./Problem 21: Traffic light";
 import Calculator from "./Problem 22: Create Google calculator-app";
+import PasswordStrength from "./Problem 27: Password Strength checker";
 
 function App() {
   return (
@@ -137,6 +138,10 @@ function App() {
         <hr />
         <h1>Problem 22: Create Google calculator app</h1>
         <Calculator />
+
+        <hr />
+        <h1>Problem 27: Password Strength checker</h1>
+        <PasswordStrength />
       </main>
 
       <footer></footer>
